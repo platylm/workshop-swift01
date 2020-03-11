@@ -15,6 +15,10 @@
 		4E4728B524188A1900B44A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4728B324188A1900B44A8C /* LaunchScreen.storyboard */; };
 		4E4728C024188A1900B44A8C /* Workshop01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728BF24188A1900B44A8C /* Workshop01Tests.swift */; };
 		4E4728CB24188A1A00B44A8C /* Workshop01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728CA24188A1A00B44A8C /* Workshop01UITests.swift */; };
+		4E4728D9241893AA00B44A8C /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728D8241893AA00B44A8C /* Hello.swift */; };
+		4E54B1452418A7B700792153 /* MyRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1442418A7B700792153 /* MyRangeTests.swift */; };
+		4E54B1472418B41200792153 /* MyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1462418B41200792153 /* MyRange.swift */; };
+		4E54B1492418C3D900792153 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1482418C3D900792153 /* SampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		4E4728C624188A1A00B44A8C /* Workshop01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Workshop01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4728CA24188A1A00B44A8C /* Workshop01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop01UITests.swift; sourceTree = "<group>"; };
 		4E4728CC24188A1A00B44A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4728D8241893AA00B44A8C /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		4E54B1442418A7B700792153 /* MyRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRangeTests.swift; sourceTree = "<group>"; };
+		4E54B1462418B41200792153 /* MyRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRange.swift; sourceTree = "<group>"; };
+		4E54B1482418C3D900792153 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 				4E4728B124188A1900B44A8C /* Assets.xcassets */,
 				4E4728B324188A1900B44A8C /* LaunchScreen.storyboard */,
 				4E4728B624188A1900B44A8C /* Info.plist */,
+				4E4728D8241893AA00B44A8C /* Hello.swift */,
+				4E54B1462418B41200792153 /* MyRange.swift */,
 			);
 			path = Workshop01;
 			sourceTree = "<group>";
@@ -115,6 +125,7 @@
 			children = (
 				4E4728BF24188A1900B44A8C /* Workshop01Tests.swift */,
 				4E4728C124188A1900B44A8C /* Info.plist */,
+				4E54B1442418A7B700792153 /* MyRangeTests.swift */,
 			);
 			path = Workshop01Tests;
 			sourceTree = "<group>";
@@ -124,6 +135,7 @@
 			children = (
 				4E4728CA24188A1A00B44A8C /* Workshop01UITests.swift */,
 				4E4728CC24188A1A00B44A8C /* Info.plist */,
+				4E54B1482418C3D900792153 /* SampleUITests.swift */,
 			);
 			path = Workshop01UITests;
 			sourceTree = "<group>";
@@ -259,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E54B1472418B41200792153 /* MyRange.swift in Sources */,
 				4E4728AD24188A1600B44A8C /* ViewController.swift in Sources */,
 				4E4728A924188A1600B44A8C /* AppDelegate.swift in Sources */,
+				4E4728D9241893AA00B44A8C /* Hello.swift in Sources */,
 				4E4728AB24188A1600B44A8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4728C024188A1900B44A8C /* Workshop01Tests.swift in Sources */,
+				4E54B1452418A7B700792153 /* MyRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4728CB24188A1A00B44A8C /* Workshop01UITests.swift in Sources */,
+				4E54B1492418C3D900792153 /* SampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
