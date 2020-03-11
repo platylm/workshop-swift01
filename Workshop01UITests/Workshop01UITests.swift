@@ -1,11 +1,3 @@
-//
-//  Workshop01UITests.swift
-//  Workshop01UITests
-//
-//  Created by PK on 3/11/20.
-//  Copyright © 2020 PK. All rights reserved.
-//
-
 import XCTest
 
 class Workshop01UITests: XCTestCase {
