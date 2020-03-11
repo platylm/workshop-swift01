@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E09F0862418DF6C001DE20A /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F0852418DF6C001DE20A /* SnapshotHelper.swift */; };
 		4E4728A924188A1600B44A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728A824188A1600B44A8C /* AppDelegate.swift */; };
 		4E4728AB24188A1600B44A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728AA24188A1600B44A8C /* SceneDelegate.swift */; };
 		4E4728AD24188A1600B44A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4728AC24188A1600B44A8C /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E09F0852418DF6C001DE20A /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		4E4728A524188A1600B44A8C /* Workshop01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4728A824188A1600B44A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E4728AA24188A1600B44A8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		4E4728C924188A1A00B44A8C /* Workshop01UITests */ = {
 			isa = PBXGroup;
 			children = (
+				4E09F0852418DF6C001DE20A /* SnapshotHelper.swift */,
 				4E4728CA24188A1A00B44A8C /* Workshop01UITests.swift */,
 				4E4728CC24188A1A00B44A8C /* Info.plist */,
 				4E54B1482418C3D900792153 /* SampleUITests.swift */,
@@ -294,6 +297,7 @@
 			files = (
 				4E4728CB24188A1A00B44A8C /* Workshop01UITests.swift in Sources */,
 				4E54B1492418C3D900792153 /* SampleUITests.swift in Sources */,
+				4E09F0862418DF6C001DE20A /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
