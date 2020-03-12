@@ -20,6 +20,8 @@
 		4E54B1452418A7B700792153 /* MyRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1442418A7B700792153 /* MyRangeTests.swift */; };
 		4E54B1472418B41200792153 /* MyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1462418B41200792153 /* MyRange.swift */; };
 		4E54B1492418C3D900792153 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54B1482418C3D900792153 /* SampleUITests.swift */; };
+		4E5F95932419DAE800144916 /* MyRandomNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F95922419DAE800144916 /* MyRandomNumberTests.swift */; };
+		4E5F95952419DB4200144916 /* MyRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F95942419DB4200144916 /* MyRandomNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		4E54B1442418A7B700792153 /* MyRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRangeTests.swift; sourceTree = "<group>"; };
 		4E54B1462418B41200792153 /* MyRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRange.swift; sourceTree = "<group>"; };
 		4E54B1482418C3D900792153 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
+		4E5F95922419DAE800144916 /* MyRandomNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomNumberTests.swift; sourceTree = "<group>"; };
+		4E5F95942419DB4200144916 /* MyRandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				4E4728B624188A1900B44A8C /* Info.plist */,
 				4E4728D8241893AA00B44A8C /* Hello.swift */,
 				4E54B1462418B41200792153 /* MyRange.swift */,
+				4E5F95942419DB4200144916 /* MyRandomNumber.swift */,
 			);
 			path = Workshop01;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				4E4728BF24188A1900B44A8C /* Workshop01Tests.swift */,
 				4E4728C124188A1900B44A8C /* Info.plist */,
 				4E54B1442418A7B700792153 /* MyRangeTests.swift */,
+				4E5F95922419DAE800144916 /* MyRandomNumberTests.swift */,
 			);
 			path = Workshop01Tests;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 				4E4728A924188A1600B44A8C /* AppDelegate.swift in Sources */,
 				4E4728D9241893AA00B44A8C /* Hello.swift in Sources */,
 				4E4728AB24188A1600B44A8C /* SceneDelegate.swift in Sources */,
+				4E5F95952419DB4200144916 /* MyRandomNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 			files = (
 				4E4728C024188A1900B44A8C /* Workshop01Tests.swift in Sources */,
 				4E54B1452418A7B700792153 /* MyRangeTests.swift in Sources */,
+				4E5F95932419DAE800144916 /* MyRandomNumberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
